@@ -35,9 +35,8 @@ Here is a link to my GitHub page:
     https://samphassan.github.io/personalPortfolio/
 
 ## Project Status
-Project is: in progress. Initial CSS and page structure is completed. Further CSS is needed to sharpen up. Still need to make the webpages responsive for different devices and improve accessibility.
+Project is: in progress. Initial CSS and page structure is completed. Further CSS is needed to sharpen up. Added media 2 media queries to make website responsive. COuld still add accessibility functions. Testing needed on media queries.
 
 
 ## Acknowledgements
-Give credit here.
 - This was a practice project from the full stack engineer program at Codecademy

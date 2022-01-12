@@ -123,3 +123,44 @@ header, main, nav, footer, figure, figcaption { display: block; }
                         opacity: 1;
                        
 }
+
+/* Tablet Media Query */
+@media only screen and (max-width: 1024px) {
+    body { margin: 0; padding: 0; } 
+    #wrapper { width: auto; }
+    header {font-size: 90%;  }
+    h1 { margin: 0; }
+    nav #hiddennav { display: none;    }
+    nav { float: none;
+            width: auto;
+          margin-top: 0;	}
+    nav ul { padding-left: 0;
+             text-align: center; }
+    nav li { display: inline-block;
+             margin: 0 2%; }
+    main { width: 60%;
+             margin-left: 5%; }
+    h2 { font-size: 85%;}
+
+}
+
+/* Phone Media Query */
+@media only screen and (max-width: 768px) {
+    header {font-size: 75%;
+            background-image: none;
+            padding: 2%; 
+            padding-left: none;} 
+    main { margin: 0 5%;      
+            width: auto; 
+            font-size: 95%;   }
+    main, h2, #gallery { align-items: center;
+                display: block;}   
+    nav ul, nav li { padding: 0; margin: 1% 0 0 0; }
+    nav a { display: inline-block;
+              width: 5em;
+              font-size: 120%;
+              text-align: center;
+              margin: 1%;
+              padding: 1% 1.5%; }
+    span { display: none; }
+      }
